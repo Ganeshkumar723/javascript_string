@@ -12,6 +12,7 @@ function addstring() {
     getoutput();
     console.log(string);
 }
+
 //finding string length 
 function stringlength() {
     alert(`The length of the string: ${string.length}`);
