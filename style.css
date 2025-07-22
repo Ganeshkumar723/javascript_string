@@ -12,18 +12,18 @@
 
 
 /* step -2 - component */
-.arraysFunction{
+.stringFunction{
     background-color: rgb(0, 253, 253);
 
 }
 
 /* step -3 - componentContainer */
-.arraysFunctionContainer {
+.stringFunctionContainer {
     /* background-color: white; */
 }
 
 /* step -4 - row */
-.arraysFunctionBody {
+.stringFunctionBody {
     background-color: #ffffff;
     display: grid;
     grid-template-columns: 1fr;
@@ -31,7 +31,7 @@
 }
 
 /* step -5 - column */
-.arraysFunctionBlock {
+.stringFunctionBlock {
     /* background-color: #03fcc6; */
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@
 
 
 /* step -6 - subColumn */
-.arraysFunctionBox {
+.stringFunctionBox {
     /* background-color: #dfbd4d; */
     
 }
@@ -101,3 +101,25 @@ button:hover {
 
 
 
+
+  @media (max-width: 576px) {
+  form {
+    padding: 1rem 1rem; 
+  }
+
+  .buttons {
+    grid-template-columns: 1fr 1fr; 
+    row-gap: 0.5rem;
+    column-gap: 0.5rem; 
+  }
+
+  input[type="text"] {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
